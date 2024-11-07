@@ -41,7 +41,7 @@ class RentalControlCalSensor(Entity):
         """
         self.coordinator = coordinator
         self.coordinator.event_sensors.append(self)
-        if coordinator.event_prefix:
+        if coordinator.event_prefix:asfasfsda
             summary = f"{coordinator.event_prefix} No reservation"
         else:
             summary = "No reservation"
